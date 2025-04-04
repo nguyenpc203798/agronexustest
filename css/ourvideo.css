@@ -179,4 +179,7 @@ Video
     transform: translateX(0px);
     transform: translateY(-50px);
   }
+  .our-videos .nacc .thumb .overlay-effect {
+    display: none;
+  }
 }
