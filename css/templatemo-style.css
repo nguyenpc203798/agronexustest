@@ -17,7 +17,9 @@ body {
 /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
-
+.collapse {
+  visibility: unset !important;
+}
 h1,
 h2,
 h3,
@@ -25,7 +27,7 @@ h4,
 h5,
 h6 {
   font-weight: bold !important;
-  line-height: inherit !important;
+  line-height: inherit;
 }
 
 h1 {
@@ -42,7 +44,7 @@ h2 {
 
 h3 {
   font-size: 1.5em !important;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 h3,
@@ -62,6 +64,7 @@ p {
   -----------------------------------------*/
 
 html {
+  scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -118,7 +121,7 @@ a:focus {
 
 section {
   position: relative;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 
 #team,
@@ -407,19 +410,28 @@ section {
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
-  height: 650px;
+  height: 80rem;
 }
 
 .slider .item-first {
   background-image: url(../images/banner/Podgorii_-_Cricova.jpg);
+  background-size: cover; /* Hình ảnh phủ kín vùng chứa */
+  background-position: top; /* Luôn căn giữa ảnh */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
 }
 
 .slider .item-second {
   background-image: url(../images/banner/Picture1.png);
+  background-size: cover; /* Hình ảnh phủ kín vùng chứa */
+  background-position: center; /* Luôn căn giữa ảnh */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
 }
 
 .slider .item-third {
   background-image: url(../images/banner/canhdong1.jpg);
+  background-size: cover; /* Hình ảnh phủ kín vùng chứa */
+  background-position: center;
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
 }
 
 .slider .item-second .section-btn {
@@ -872,7 +884,7 @@ footer .social-icon {
 
 @media only screen and (max-width: 992px) {
   section {
-    padding: 60px 0;
+    padding: 30px 0;
   }
 
   .custom-navbar .section-btn {

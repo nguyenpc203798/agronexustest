@@ -41,7 +41,7 @@
 
 .timeline-container .vertical-scrollable-timeline .list-progress {
   width: 8px;
-  height: 87%;
+  height: 83%;
   background-color: #1e6c39;
   position: absolute;
   left: 52px;
@@ -129,11 +129,23 @@
 }
 @media screen and (max-width: 991px) {
   .timeline-container .vertical-scrollable-timeline .list-progress {
-    height: 75%;
+    left: 38px;
+    height: 87%;
+  }
+  .timeline-container .vertical-scrollable-timeline li .icon-holder {
+    width: 80px;
+    height: 80px;
+  }
+  .timeline-container .vertical-scrollable-timeline li .icon-holder::before {
+    width: 60px;
+    height: 60px;
+  }
+  .timeline-container .vertical-scrollable-timeline .list-progress {
+    height: 70%;
   }
 
   .timeline-container .vertical-scrollable-timeline li {
-    padding-left: 135px;
+    padding-left: 100px;
   }
   .section-overlay {
     background-image: linear-gradient(to right, rgba(24, 95, 51, 0.85), rgba(49, 173, 92, 0.85));
