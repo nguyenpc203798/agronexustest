@@ -26,7 +26,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold !important;
   line-height: inherit;
 }
 
@@ -38,7 +37,7 @@ h1 {
 
 h2 {
   color: #353535;
-  font-size: 2em !important;
+  font-size: 2em;
   padding-bottom: 10px !important;
 }
 
@@ -53,10 +52,10 @@ h3 a {
 }
 
 p {
-  color: #757575;
-  font-size: 14px;
+  color: #000000;
+  font-size: 16px;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 2.5rem;
 }
 
 /*---------------------------------------
@@ -157,6 +156,7 @@ section {
   font-weight: normal;
   padding: 10px 25px;
   transition: 0.5s 0.2s;
+  border-radius: 1rem;
 }
 
 /*---------------------------------------
@@ -274,7 +274,6 @@ section {
 
 .custom-navbar .nav li a {
   font-size: 12px;
-  font-weight: bold;
   color: #000000;
   padding-right: 22px;
   padding-left: 22px;
@@ -395,14 +394,14 @@ section {
 
 .slider .caption {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   flex-direction: column;
   text-align: left;
   background-color: rgba(20, 20, 20, 0.2);
   height: 100%;
   color: #fff;
   cursor: e-resize;
-  padding: 4em 0 0 2em;
+  padding: 4em 0 10rem 2em;
 }
 
 .slider .item {
@@ -416,8 +415,9 @@ section {
 .slider .item-first {
   background-image: url(../images/banner/Podgorii_-_Cricova.jpg);
   background-size: cover; /* Hình ảnh phủ kín vùng chứa */
-  background-position: top; /* Luôn căn giữa ảnh */
-  background-repeat: no-repeat; /* Không lặp lại ảnh */
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .slider .item-second {
@@ -430,22 +430,22 @@ section {
 .slider .item-third {
   background-image: url(../images/banner/canhdong1.jpg);
   background-size: cover; /* Hình ảnh phủ kín vùng chứa */
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat; /* Không lặp lại ảnh */
 }
 
-.slider .item-second .section-btn {
+/* .slider .item-second .section-btn {
   background: #292929;
-}
+} */
 
 .slider .item-second .section-btn:hover {
   background: #ffffff;
 }
 
-.slider .item-third .section-btn {
+/* .slider .item-third .section-btn {
   background: transparent;
   border: 1px solid #ffffff;
-}
+} */
 
 .slider .item-third .section-btn:hover,
 .slider .item-third .section-btn:focus {
@@ -976,7 +976,7 @@ footer .social-icon {
   }
 
   .slider .caption {
-    padding: 0;
+    padding: 4em 0 3rem 0em;
   }
 
   .menu-thumb .menu-info {
