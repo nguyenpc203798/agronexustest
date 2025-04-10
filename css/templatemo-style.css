@@ -6,11 +6,11 @@ http://www.templatemo.com/tm-515-eatery
 
 */
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 body {
   background: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   overflow-x: hidden;
 }
 
@@ -410,11 +410,11 @@ section {
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
-  height: 80rem;
+  height: 70rem;
 }
 
 .slider .item-first {
-  background-image: url(../images/banner/Podgorii_-_Cricova.jpg);
+  background-image: url(../images/banner/baner1.jpg);
   background-size: cover; /* Hình ảnh phủ kín vùng chứa */
   background-position: top;
   background-repeat: no-repeat;
@@ -422,14 +422,14 @@ section {
 }
 
 .slider .item-second {
-  background-image: url(../images/banner/Picture1.png);
+  background-image: url(../images/banner/baner2.jpg);
   background-size: cover; /* Hình ảnh phủ kín vùng chứa */
   background-position: center; /* Luôn căn giữa ảnh */
   background-repeat: no-repeat; /* Không lặp lại ảnh */
 }
 
 .slider .item-third {
-  background-image: url(../images/banner/canhdong1.jpg);
+  background-image: url(../images/banner/baner3.jpg);
   background-size: cover; /* Hình ảnh phủ kín vùng chứa */
   background-position: top;
   background-repeat: no-repeat; /* Không lặp lại ảnh */
