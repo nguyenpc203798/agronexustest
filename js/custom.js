@@ -28,7 +28,7 @@
       items:1,
       loop:true,
       autoplayHoverPause: false,
-      autoplay: true,
+      autoplay: false,
       smartSpeed: 1000,
     })
 
