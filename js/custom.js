@@ -28,15 +28,15 @@
       items:1,
       loop:true,
       autoplayHoverPause: false,
-      autoplay: false,
+      autoplay: true,
       smartSpeed: 1000,
     })
 
 
     // PARALLAX EFFECT
-    $.stellar({
-      horizontalScrolling: false,
-    }); 
+    // $(window).stellar({
+    //   verticalOffset: 50, // Điều chỉnh độ trễ cuộn dọc
+    // });
 
 
     // MAGNIFIC POPUP
@@ -112,6 +112,6 @@
 
 
     // WOW ANIMATION
-    new WOW({ mobile: false }).init();
+    new WOW({ mobile: true }).init();
 
 })(jQuery);
