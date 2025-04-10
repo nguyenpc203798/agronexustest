@@ -410,7 +410,7 @@ section {
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
-  height: 70rem;
+  height: 65rem;
 }
 
 .slider .item-first {
@@ -723,7 +723,7 @@ section {
 #contact .form-control {
   background: transparent;
   border: 0;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #ffffff;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
